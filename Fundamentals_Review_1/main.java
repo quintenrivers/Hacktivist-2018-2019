@@ -25,5 +25,13 @@ public class main {
 		applyrs.set_name("Applyrs");
 		applyrs.print_count();
 		applyrs.take_bite();
+
+		Fruit[] fruit_arr = new Fruit[10];
+
+		fruit_arr[0] = lenny;
+		fruit_arr[1] = gerald;
+		fruit_arr[2] = applyrs;
+
+		fruit_arr[2].print_count();
 	}
 }
